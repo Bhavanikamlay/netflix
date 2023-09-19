@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.netflix-logo {
+    height: 30px;
+    background-color: transparent;
+    padding-left: 30px;
+}
+
+.netflix-container {
+    background-image: url("https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg");
+    height: 65vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.language {
+    border-radius: 5px;
+    border: 1px solid #a39898;
+    margin-right: 10px;
+}
+
+.lang {
+    background-color: transparent;
+    color: white;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    padding-top: 5px;
+    padding-left: 10px;
+    border: 0px;
+
+}
+
+.logo {
+    padding-left: 5px;
+    padding-top: 5px;
+    color: white;
+}
+
+.button {
+    background-color: #c71e29;
+    color: white;
+    border: 0px;
+    font-family: "Roboto";
+    font-size: 15px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.main-heading {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.join-date {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+
+.ready-to-watch {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+
+.email-address {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    width: 40%;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.second-container {
+    background-color: black;
+    border-top: 5px solid #544442;
+
+}
+
+.second-header {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.second-para {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+.img-1 {
+    background-image: url("https://i.pinimg.com/564x/a6/e1/98/a6e198f58276605d2dfb407cbeaf2aa0.jpg");
+
+    background-size: cover;
+}
+
+.line {
+    border-top: 5px solid #544442;
+    width: 100%;
+}
+
+.third-container {
+    background-color: black;
+}
+
+.faq-header {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.question {
+    width: 100%;
+    margin: 30px auto;
+    max-width: 750px;
+}
+
+.question li {
+    list-style-type: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.question li label {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    background: #474338;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    color: white;
+
+}
+
+label::after {
+    content: '+';
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+.question .content {
+    background: #474338;
+    text-align: left;
+    overflow: hidden;
+    max-height: 0;
+    padding: 0px 10px;
+    transition: max-height 0.5s;
+    color: white;
+    font-size: 16px;
+}
+
+.question input[type="radio"]:checked+label+.content {
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.question input[type="radio"]:checked+label::after {
+    transform: rotate(135deg);
+}
+
+.email-signup {
+    width: 100%;
+
+}
+
+.contact-header {
+    color: grey;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
